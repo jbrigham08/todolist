@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Noto+Serif&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main class="app">
+        <h1>My to-Do List</h1>
+        <div class="input-header">
+            <h1><span id="date"></span></h1>
+            <div class="to-do-input">
+                <input type="text" id="item" placeholder="Enter Task">
+                <button id="enter">Enter</button>
+            </div>
+        </div>
+        <div class="to-do-list"></div>
+    </main>
+
+    <div class="item">
+        <div class="input-controller">
+            <textarea disabled></textarea>
+            <div class="edit-controller">
+                <i class="fa-solid fa-check deleteBtn"></i>
+                <i class="fa-sharp fa-regular fa-pen-to-square editBtn"></i>
+            </div>
+        </div>
+        <div class="update-controller">
+            <button class="saveBtn">Save</button>
+            <button class="cancelBtn">Cancel</button>
+        </div> 
+    </div><br><br>
+    <!-- <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script> -->
+<div class="elfsight-app-9ddaec5a-2fa1-44cc-8082-0936ac83b851">
+    <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+</div><br><br>
+
+<footer class="end">
+    <p>Jeff Brigham</p>
+    <h2>W3Schools</h2>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
